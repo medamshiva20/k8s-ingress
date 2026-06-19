@@ -59,7 +59,7 @@ spec:
   - host: app1.sivadevops.in
     http:
      paths:
-      - pathType: prefix
+      - pathType: Prefix
         path: "/"
         backend:
          service:
