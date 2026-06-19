@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: app1
-        image: joindevops/app1:1.0.0
+        image: sivamedam/app:1.0.0
 ---
 apiVersion: v1
 kind: Service
@@ -55,7 +55,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: "app1.daws88s.online"
+  - host: "app1.sivadevops.in"
     http:
       paths:
       - pathType: Prefix
